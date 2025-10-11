@@ -86,7 +86,7 @@ function App() {
             {/* Imagem do Produto */}
             <div className="flex-1 flex justify-center">
               <img
-                src="/image.png"
+                src="https://imgur.com/a/CtMWYzz"
                 alt="Halloween Encantado - Livro de Colorir"
                 className="w-full max-w-md rounded-lg shadow-2xl"
               />
