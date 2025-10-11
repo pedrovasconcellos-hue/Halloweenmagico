@@ -131,7 +131,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-orange-50 p-8 rounded-lg shadow-lg">
               <img
-                src="https://photos.fife.usercontent.google.com/pw/AP1GczOJVhciT6Vto5sWarSWnu471wXTfEjOTHix6AWDxOAUNjRrd2IUxRmk=w933-h933-s-no-gm?authuser=1"
+                src="https://imgur.com/a/CtMWYzz"
                 alt="Conteúdo 1"
                 className="w-full rounded-lg shadow-md mb-4"
               />
