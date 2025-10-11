@@ -86,11 +86,7 @@ function App() {
             {/* Imagem do Produto */}
             <div className="flex-1 flex justify-center">
               <img
-              <blockquote class="imgur-embed-pub" lang="en" data-id="KHMqQgC">
-  <a href="https://imgur.com/KHMqQgC">View post on imgur.com</a>
-</blockquote>
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+                src="/image.png"
                 alt="Halloween Encantado - Livro de Colorir"
                 className="w-full max-w-md rounded-lg shadow-2xl"
               />
