@@ -103,7 +103,7 @@ function App() {
           </h2>
           <div className="mb-12">
             <img
-              src="https://photos.fife.usercontent.google.com/pw/AP1GczOJVhciT6Vto5sWarSWnu471wXTfEjOTHix6AWDxOAUNjRrd2IUxRmk=w933-h933-s-no-gm?authuser=1"
+              src="https://i.imgur.com/mLtOkUX.png"
               alt="Conteúdo do Halloween Encantado"
               className="w-full max-w-4xl mx-auto rounded-lg shadow-xl"
             />
