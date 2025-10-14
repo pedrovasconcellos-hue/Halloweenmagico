@@ -277,14 +277,9 @@ function App() {
             <span>|</span>
             <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
           </div>
-          <div className="flex justify-center">
-            <a href="https://wa.me/61993711943?text=Ol%C3%A1%2C%20Gostaria%20de%20entender%20mais%20sobre%20o%20Halloween%20Encantado%20-%20100%20P%C3%A1ginas%20para%20Colorir" target="_blank" rel="noopener noreferrer" className="whatsapp-button">
-              <WhatsAppIcon />
-              Fale Conosco
-            </a>
-          </div>
         </div>
       </footer>
+      <WhatsAppIcon />
     </div>
   );
 }
