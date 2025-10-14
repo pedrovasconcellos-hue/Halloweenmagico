@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Star, Clock } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 
 const removeFloating = () => {
   document
@@ -86,7 +87,7 @@ function App() {
             {/* Imagem do Produto */}
             <div className="flex-1 flex justify-center">
               <img
-                src="/image.png"
+                src="/THUMB.jpeg"
                 alt="Halloween Encantado - Livro de Colorir"
                 className="w-full max-w-md rounded-lg shadow-2xl"
               />
@@ -101,13 +102,7 @@ function App() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gray-800">
             Veja como é o Halloween Encantado
           </h2>
-          <div className="mb-12">
-            <img
-              src="https://photos.fife.usercontent.google.com/pw/AP1GczOwo9gR1nFbLTUgmuC07WQ2OyWtKIoLq2koMoKNgVPqjkYZ__OtAOBY=w933-h933-s-no-gm?authuser=1"
-              alt="Conteúdo do Halloween Encantado"
-              className="w-full max-w-4xl mx-auto rounded-lg shadow-xl"
-            />
-          </div>
+
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
             Mais de 100 páginas temáticas com personagens encantadores de Halloween. Uma experiência completa de diversão e criatividade para todas as idades!
           </p>
@@ -131,14 +126,14 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-orange-50 p-8 rounded-lg shadow-lg">
               <img
-                src="https://photos.fife.usercontent.google.com/pw/AP1GczOJVhciT6Vto5sWarSWnu471wXTfEjOTHix6AWDxOAUNjRrd2IUxRmk=w933-h933-s-no-gm?authuser=1"
+                src="/Conteudo1.png"
                 alt="Conteúdo 1"
                 className="w-full rounded-lg shadow-md mb-4"
               />
             </div>
             <div className="bg-orange-50 p-8 rounded-lg shadow-lg">
               <img
-                src="https://photos.fife.usercontent.google.com/pw/AP1GczOJVhciT6Vto5sWarSWnu471wXTfEjOTHix6AWDxOAUNjRrd2IUxRmk=w933-h933-s-no-gm?authuser=1"
+                src="/Conteudo2.png"
                 alt="Conteúdo 2"
                 className="w-full rounded-lg shadow-md mb-4"
               />
@@ -216,46 +211,12 @@ function App() {
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-6 md:px-12">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-gray-800">
-            O que nossos clientes estão dizendo
+            O que nossos clientes estão achando?
           </h2>
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {/* Depoimento 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4">
-                "Comprei para fazer com meu filho e virou nossa rotina da noite. Ele ama pintar os desenhos!"
-              </p>
-              <p className="font-bold text-gray-800">Juliana S.</p>
-            </div>
-            {/* Depoimento 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4">
-                "Estou usando em sala de aula e as crianças adoram. Recomendo muito!!"
-              </p>
-              <p className="font-bold text-gray-800">Prof. Ana Paula</p>
-            </div>
-            {/* Depoimento 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="flex mb-4">
-                {[...Array(4)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-                <Star className="w-5 h-5 text-gray-300" />
-              </div>
-              <p className="text-gray-700 mb-4">
-                "Achei que seria simples, mas as ilustrações são lindas. Espero que tenha edição de Natal kkkkk."
-              </p>
-              <p className="font-bold text-gray-800">Rodrigo M.</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <img src="/testimonial1.png" alt="Depoimento 1" className="w-full rounded-lg shadow-lg" />
+            <img src="/testimonial2.png" alt="Depoimento 2" className="w-full rounded-lg shadow-lg" />
+            <img src="/testimonial3.png" alt="Depoimento 3" className="w-full rounded-lg shadow-lg" />
           </div>
           <div className="text-center">
             <a
@@ -311,12 +272,16 @@ function App() {
           <p className="mb-4">
             © 2025 Halloween Encantado. Todos os direitos reservados.
           </p>
-          <div className="flex justify-center gap-6 text-sm">
+          <div className="flex justify-center gap-6 text-sm mb-4">
             <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
             <span>|</span>
             <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
-            <span>|</span>
-            <a href="#" className="hover:text-white transition-colors">Suporte</a>
+          </div>
+          <div className="flex justify-center">
+            <a href="https://wa.me/61993711943?text=Ol%C3%A1%2C%20Gostaria%20de%20entender%20mais%20sobre%20o%20Halloween%20Encantado%20-%20100%20P%C3%A1ginas%20para%20Colorir" target="_blank" rel="noopener noreferrer" className="whatsapp-button">
+              <WhatsAppIcon />
+              Fale Conosco
+            </a>
           </div>
         </div>
       </footer>
