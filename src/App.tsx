@@ -59,7 +59,7 @@ function CountdownTimer() {
 }
 
 function App() {
-  const ctaLink = "https://pay.kiwify.com.br/KxykoTh";
+  const ctaLink = "https://pay.cakto.com.br/3bdpgcq_608245";
 
   return (
     <div className="min-h-screen bg-white">
